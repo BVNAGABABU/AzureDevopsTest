@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: BVs-MacBook-Air
+  name: MacAgent
   
 steps:
 - task: Maven@3
