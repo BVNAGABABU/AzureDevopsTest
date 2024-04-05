@@ -8,6 +8,8 @@ trigger:
 
 pool:
   name: MacAgent
+  demands:
+  - agent.name: -equals BVs-MacBook-Air
   
 steps:
 - task: Maven@3
